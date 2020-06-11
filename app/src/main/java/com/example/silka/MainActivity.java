@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_library:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new LibraryFragment()).commit();
-                getSupportActionBar().setTitle(R.string.library);
                 break;
 
         }
